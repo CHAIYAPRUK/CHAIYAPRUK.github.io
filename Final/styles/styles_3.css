@@ -1,0 +1,92 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #192841; /* สีน้ำเงินเข้ม */
+    text-align: center;
+    margin-top: 50px;
+    color: #fff; /* สีข้อความ */
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4x4 grid */
+    gap: 10px;
+}
+
+.card {
+    background-color: #53a3f0;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.card.flipped {
+    background-color: #218cff;
+}
+
+.clock-container {
+    margin-top: 20px;
+}
+
+.clock {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    font-size: 24px;
+    color: #666;
+    background-color: #fff;
+}
+
+.clock-button,
+#reset-button {
+    background-color: #4CAF50; /* เขียว */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.clock-button:hover,
+#reset-button:hover {
+    background-color: #45a049; /* เขียวอ่อน */
+}
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #dbe9f6; /* สีฟ้าอ่อน */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    background-color: #333; /* สีเทา */
+    color: #ffffff; /* สีขาว */
+}
+
+.navbar a:hover {
+    background-color: #555; /* สีเทาเข้ม */
+    color: #ffffff; /* สีขาว */
+    transition: background-color 0.3s;
+}

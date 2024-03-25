@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #192841; /* สีน้ำเงินเข้ม */
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px; /* ขนาดตัวอักษรของหัวเรื่องใหญ่ */
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของหัวเรื่องใหญ่ */
+    color: #dbe9f6; /* สีฟ้าอ่อน */
+}
+
+h2 {
+    font-size: 24px; /* ขนาดตัวอักษรของหัวเรื่องย่อย */
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่างของหัวเรื่องย่อย */
+    color: #dbe9f6; /* สีฟ้าอ่อน */
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* สีขาวโปร่งใส */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* เงา */
+    text-align: left; /* จัดข้อความภายใน container ไว้ทางซ้าย */
+}
+
+p {
+    color: #ffffff; /* สีขาว */
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของย่อหน้า */
+    line-height: 1.6; /* กำหนดความสูงของบรรทัด */
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #dbe9f6; /* สีฟ้าอ่อน */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a.active {
+    background-color: #333; /* สีเทา */
+    color: #ffffff; /* สีขาว */
+}
+
+.navbar a:hover {
+    background-color: #555; /* สีเทาเข้ม */
+    color: #ffffff; /* สีขาว */
+    transition: background-color 0.3s;
+}
+img {
+    max-width: 100%; /* กำหนดให้รูปภาพไม่เกินขนาด container */
+    height: auto; /* ให้รูปภาพปรับขนาดตามอัตราส่วนของตัวเอง */
+    border-radius: 8px; /* กำหนดขอบรูปภาพเป็นรูปร่างมนเมือง */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* เพิ่มเงาให้รูปภาพ */
+}
