@@ -90,3 +90,25 @@ body {
     color: #ffffff; /* สีขาว */
     transition: background-color 0.3s;
 }
+h1{
+    text-align: center;
+    font-size: 36px; /* ขนาดตัวอักษรของหัวเรื่องใหญ่ */
+    margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของหัวเรื่องใหญ่ */
+    color: #dbe9f6; /* สีฟ้าอ่อน */
+    margin: 20px; /* เพิ่มระยะห่างระหว่างกรอบและองค์ประกอบข้างนอก */
+}
+h2 {
+    font-size: 24px; /* ขนาดตัวอักษรของหัวเรื่องย่อย */
+    margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่างของหัวเรื่องย่อย */
+    color: #dbe9f6; /* สีฟ้าอ่อน */
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* สีขาวโปร่งใส */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* เงา */
+    text-align: left; /* จัดข้อความภายใน container ไว้ทางซ้าย */
+    margin-bottom: 10px;
+}

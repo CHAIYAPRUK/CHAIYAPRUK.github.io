@@ -7,20 +7,21 @@
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family:Roboto, sans-serif;
     background-color: #192841; /* สีน้ำเงินเข้ม */
     text-align: center;
     margin-top: 50px;
 }
 
 h1 {
-    text-align: center;
+    text-align: center; /* จัดข้อความภายใน h1 ไว้ตรงกลาง */
     font-size: 36px; /* ขนาดตัวอักษรของหัวเรื่องใหญ่ */
     margin-bottom: 20px; /* เพิ่มระยะห่างด้านล่างของหัวเรื่องใหญ่ */
     color: #dbe9f6; /* สีฟ้าอ่อน */
 }
 
 h2 {
+    text-align: center; /* จัดข้อความภายใน h2 ไว้ตรงกลาง */
     font-size: 24px; /* ขนาดตัวอักษรของหัวเรื่องย่อย */
     margin-bottom: 15px; /* เพิ่มระยะห่างด้านล่างของหัวเรื่องย่อย */
     color: #dbe9f6; /* สีฟ้าอ่อน */
@@ -69,4 +70,9 @@ img {
     height: auto; /* ให้รูปภาพปรับขนาดตามอัตราส่วนของตัวเอง */
     border-radius: 8px; /* กำหนดขอบรูปภาพเป็นรูปร่างมนเมือง */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* เพิ่มเงาให้รูปภาพ */
+}
+.image-container {
+    border: 5px solid #ccc; /* กำหนดขอบเป็นเส้นกระดุมสีเทา */
+    border-radius: 10px; /* กำหนดขอบเป็นรูปทรงวงกลม */
+    padding: 10px; /* เพิ่มระยะห่างระหว่างรูปภาพและขอบ */
 }
